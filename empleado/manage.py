@@ -7,6 +7,7 @@ import sys
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'empleado.settings.local')
+    print(os.path.abspath('empleado/settings/local.py'))
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
