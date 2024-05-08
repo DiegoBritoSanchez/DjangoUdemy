@@ -1,7 +1,7 @@
 from django.contrib import admin
 
-from applications.home.models import Prueba
+from .models import Prueba
 
 # Register your models here.
 
-admin.register(Prueba)
+admin.site.register(Prueba)
