@@ -19,6 +19,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    ##Local apps
+    'empleado.applications.departments',
+    'empleado.applications.employees',
+
 ]
 
 MIDDLEWARE = [
